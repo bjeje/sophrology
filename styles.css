@@ -1,0 +1,1530 @@
+/* GENERAL */
+
+body {   
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    color: red;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 35px;
+}
+
+h5 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 25px;
+    color: #444;
+}
+
+/* MENU hamburger */
+
+.navbar {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+    color: #444 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #36D9C0 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-style: none;
+}
+
+.icon-bar {
+    background-color: black !important;
+}
+
+#active {
+   color: #8100FF !important; 
+}
+
+/* MAIN IMAGE*/
+
+#main-image {
+    height: 600px;
+    background: url('images/banniere4modifier2000pxlogomilieu.png') center;
+    background-size: cover;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 30px;
+    transform: rotate(-7deg);
+    color: #fff;
+}
+
+#main-image h3 {
+    padding: 0px 100px;
+    transform: rotate(-7deg);
+    color: #fff;
+}
+
+#main-image p {
+    font-size: 35px;
+    margin-right: 3px;
+    margin-top: 240px;
+    transform: rotate(-7deg);
+    color: #36D9C0;
+    float:right;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 20px;
+    height: 300px;
+    background: url(images/pieddepage300.png) no-repeat top center;
+}
+
+footer h5 {
+    padding-top: 30px;
+    color:#FFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.telephone p {
+    margin-top: 10px;
+    text-align: center;
+    color: #21E8E8;
+}
+
+.consultation p {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color:#36D9C0;
+}
+
+/* ------------- Page 1 ------------- */
+
+/* BODY */
+
+#body {
+    margin:30px 0px;
+}
+
+#body h4 {   
+    margin-left: 20px;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+#body p {
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+
+/* TITRE ET PARAGRAPHE */
+.titreh4 {
+    color: #8100FF;
+    text-align: center;
+    /*border-bottom: 2px solid ;*/
+}
+
+/* PAYSAGE */
+
+#paysage {
+    margin-top: 30px;
+    height: 300px;
+    background: url(images/paysageviolet.png) no-repeat top center;
+    padding: 50px 0;
+}
+
+#paysage article {
+    margin-right: 0px;
+    float: right;
+    border-radius: 7px;
+}
+
+/* EXPLICATION */
+
+#explication p:first-child {
+    padding-top: 30px;
+}
+
+#explication :nth-child(2) {  
+    margin: -40px 0px 0px 0px;
+    padding-top:0px;
+}
+
+/* ------------- Page 2 ------------- */
+
+/* TITRE ET PARAGRAPHE */
+
+.titreh2 {
+    color: #8100FF;
+    text-align: center;
+    border-bottom: 2px solid ;
+}
+
+.paragraphe {
+    margin: 20px 0px 20px 0px;
+}
+
+/* CORP 1 */
+
+#corp1 {   
+    padding: 20px;
+    margin: 0px auto 20px 20px;
+    background-position: 82% 80%;
+}
+
+#corp1 h2 {   
+    font-size: 40px;
+    margin-top: 0px;
+    padding: 10px 10px;
+}
+
+#corp1 p {
+    
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+#stressimage img {
+    margin-top: 60%;
+    border-radius: 10px;
+}
+
+/* PHASE */
+
+#phase {
+    margin: 0px auto;
+    /*background-color: #7F00FF;*/
+    background-image: radial-gradient(circle at bottom left, #C1ABDA, #7F00FF);
+    padding: 50px 0;
+}
+
+#phase p {
+    margin: auto;
+    text-align: center;
+    color: #36D9C0;
+    font-size: 30px;
+}
+
+#phase ul {
+    color: #FFF;
+    float: left;
+    font-size: 25px; 
+}
+
+#phase ul li {
+    margin: auto;
+    padding:20px;
+}
+
+/* EMOTION */
+
+#emotion h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#emotion p {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+#emotion ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#emotion ul li {
+    list-style-type: none;
+    padding: 10px 30px;
+    float: right;
+    margin-bottom: 0px;
+}
+
+#emotion figure img {
+    margin-top: 45%;
+}
+
+#step-1 {
+    background: url(images/colere.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#step-3 {
+    background: url(images/frustration.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#step-4 {
+    background: url(images/peur.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#step-5 {
+    background: url(images/culpabilite.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#step-6 {
+    background: url(images/degout.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#step-7 {
+    background: url(images/tristesse.png) no-repeat bottom center;
+    height: 100px;
+    width: 100px;
+}
+
+#carouselExampleIndicators {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ------------- Page 3 ------------- */
+
+/* TITRE ET PARAGRAPHE a la page 2*/
+
+/* BARRE DE FIN */
+.barredefin p {
+    border-bottom: 2px solid #8100FF;
+    margin-bottom: 20px;
+}
+
+/* ------------- Page 4 ------------- */
+
+/* FORMULAIRE */
+
+#contact figure {
+    margin-top: 20px;
+}
+
+.star {
+    color: #F71B7B;
+}
+
+.icon {
+    color: #359CF8;
+}
+
+.heading h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.divider p {
+    border-bottom: 2px solid #FFC603;
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+#contact-form {
+    font-size: 22px;
+    padding: 35px;
+    /*background: #D7E921;*/
+    background: radial-gradient(circle at bottom left, #FFC905, #F5EEEF);
+    /*background: #8D37ED;*/
+    /*background: radial-gradient(circle at bottom left, #C1ABDA, #7F00FF);*/
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #F71B7B;
+    height: 25px;
+}
+
+#contact-form input[type=submit] {
+    margin: 30px auto 0px;
+    display: block;
+}
+
+.button1 {
+    border: 1px solid #ddd;
+    background: #359CF8;
+    color: #fff;
+    width: 30%;
+    border-radius: 8px;
+    font-weight: bold;
+    padding:5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #8100FF;
+    border-color: #ffa500;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* SOCIAL MEDIA */
+
+.title-social h3 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.icon-social {
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.icon-social i {
+    color: #359CF8;
+}
+
+.icon-social i:hover {
+    color: #8100FF !important;
+}
+
+/* ------------- MEDIA QUERIE ------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+h1 {
+    font-size: 35px;
+}
+    
+h2 {
+    font-size: 33px;
+}
+    
+h3 {
+    font-size: 28px;
+}
+    
+h4 {
+    font-size: 25px;
+}
+    
+h5{
+    font-size: 22px;
+}
+    
+p {
+    font-size: 20px;
+}
+    
+/* MAIN IMAGE -600 */    
+    
+#main-image {
+    height: 350px;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 0px; 
+}
+    
+#main-image h3 {
+    padding: 0px 49px;
+}
+    
+#main-image p {
+    font-size: 25px;
+    margin-right: 0px;
+    margin-top: 155px;
+}
+/* ------------- Page 1 600- ------------- */
+
+/* BODY -600 */
+
+#body {
+    margin:20px 0px 10px 0px;;
+}
+
+#body h4 {   
+    font-size: 25px;
+    margin-top: 0px;
+    padding: 0px 0px;
+}
+    
+#body p {
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+    
+/* PAYSAGE 600- */
+
+#paysage {
+    margin-top: 0px;
+    height: 160px;
+}
+    
+#paysage article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: right;
+    border-radius: 7px;
+}
+    
+/* EXPLICATION 600- */
+
+#explication p:first-child {
+    margin: 0px 0px 20px 0px;
+}    
+
+/* ------------- Page 2 600- ------------- */
+    
+/* CORP1 600- */
+    
+#corp1 {   
+    padding: 10px;
+    margin: 0px auto 0px 20px;
+}
+    
+#corp1 h2 {   
+    text-align: center;
+    font-size: 33px;
+    margin-top: 0px;
+    padding: 0px 10px;
+}
+    
+#corp1 p
+{
+    margin: 20px auto;
+    padding: 20px 0px 0px 0px;
+}
+    
+#stressimage img {
+    margin-top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+} 
+    
+/* PHASE 600- */
+
+#phase {
+    margin: 0px auto;
+    padding: 30px 0;
+}
+    
+#phase p {
+    font-size: 22px;
+}
+    
+#phase ul {
+    font-size: 21px; 
+}
+    
+#phase ul li {
+    padding:10px;
+}    
+    
+/* EMOTION 600- */
+#emotion figure img {
+    display: none;    
+}
+    
+#imagefixe {
+    display: none;
+}
+    
+.carousel-inner {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+
+/* ------------- Page 3 600- ------------- */
+
+/* IMAGE BOTTOM -600 */
+.imgbottom {
+    display:none;
+}  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+h1 {
+    font-size: 40px;
+}
+    
+h2 {
+    font-size: 33px;
+}
+    
+h3 {
+    font-size: 30px;
+}
+    
+h4 {
+    font-size: 25px;
+}
+    
+h5 {
+    font-size: 22px;
+}
+    
+p {
+    font-size: 20px;
+} 
+    
+/* MAIN IMAGE 600+ */    
+    
+#main-image {
+    height: 350px;
+    background-size: cover;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 30px; 
+}
+    
+#main-image h3 {
+    padding: 0px 100px;
+}
+
+#main-image p {
+    font-size: 25px;
+    margin-right: 1px;
+    margin-top: 142px;
+}
+    
+/* ------------- Page 1 600+ ------------- */
+    
+/* BODY 600+ */
+
+#body {
+    margin:20px 0px;
+}
+
+#body h4 {   
+    margin-left: 20px;
+}
+
+/* PAYSAGE 600+ */
+
+#paysage {
+    margin-top: 0px;
+    height: 160px;
+}
+    
+#paysage article img {
+    margin-right: 0px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+/* ------------- Page 2 600+ ------------- */
+    
+/* CORP1 600+ */
+#corp1 {   
+    padding: 10px;
+    margin: 0px auto 0px 20px;
+} 
+    
+#corp1 h2 {   
+    text-align: center;
+    font-size: 33px;
+    margin-top: 0px;
+    padding: 0px 10px;
+}
+    
+#corp1 p {
+    margin: 20px auto;
+    padding: 20px 0px 0px 0px;
+}
+    
+#stressimage img {
+    margin-top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+    
+/* PHASE 600+ */
+
+#phase {
+    margin: 0px auto;
+    padding: 30px 0;
+}
+    
+#phase p {
+    margin: auto;
+    text-align: center;
+    color: #36D9C0;
+    font-size: 22px;
+}
+    
+#phase ul {
+    font-size: 21px; 
+}
+    
+#phase ul li {
+    margin: auto;
+    padding:10px;
+} 
+    
+/* EMOTION 600+ */
+#emotion figure img {
+display: none;    
+}
+    
+#imagefixe {
+    display: none;
+}
+    
+#emotion ul li {
+    list-style-type: none;
+    margin: 1px 0px;
+    float: left;
+    margin-bottom: 0px;
+}
+    
+.carousel-inner {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+
+/* ------------- Page 3 600+ ------------- */
+/* IMAGE BOTTOM 600+ */
+.imgbottom {
+    display:none;
+}    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+body {   
+    font-size: 13px;
+}
+    
+h1 {
+    font-size: 40px;
+}
+    
+h2 {
+    font-size: 33px;
+}
+h3 {
+    font-size: 30px;
+}
+    
+h4 {
+    font-size: 25px;
+}
+    
+h5 {
+    font-size: 22px;
+}
+    
+p {
+    font-size: 20px;
+} 
+    
+/* MAIN IMAGE 768 */    
+    
+#main-image {
+    height: 350px;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 30px; 
+}
+    
+#main-image h3 {
+    padding: 0px 100px;
+}
+
+#main-image p {
+    font-size: 28px;
+    margin-right: 3px;
+    margin-top: 132px;
+} 
+/* ------------- Page 1 768 ------------- */
+
+/* BODY 768*/
+
+#body {
+    margin:20px 0px;
+}
+
+#body h4 {   
+    font-size: 25px;
+}
+    
+#body p {
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+
+/* PAYSAGE 768*/
+
+#paysage {
+    margin-top: 0px;
+    height: 100%;
+}
+    
+#paysage article img {
+    margin-top: 20px;
+    border-radius:7px
+}
+    
+/* EXPLICATION 768*/
+
+#explication p:first-child {
+    margin: -40px 0px 20px 0px;
+} 
+    
+/* ------------- Page 2 768 ------------- */
+    
+/* CORP1 768 */
+#corp1 {   
+    padding: 10px;
+    margin: 0px auto 0px 20px;
+}  
+    
+#corp1 h2 {   
+    text-align: center;
+    font-size: 33px;
+    margin-top: 0px;
+    padding: 0px 10px;
+}
+    
+#corp1 p {
+    margin: 20px auto;
+    padding: 20px 0px 10px 0px;
+}
+    
+#stressimage img {
+    margin-top: 60%;
+}
+    
+/* PHASE 768*/
+
+#phase {
+    margin: 0px auto;
+    padding: 30px 0;
+}
+    
+#phase p {
+    font-size: 22px;
+}
+    
+#phase ul {
+    font-size: 21px; 
+}
+    
+#phase ul li {
+    padding:10px;
+}
+    
+/* EMOTION 768*/
+
+#emotion h2 {
+    padding-top: 30px;
+    text-align: center; 
+}
+    
+#emotion p {
+    padding-top: 30px;
+    margin-bottom: 20px;    
+}
+    
+#emotion ul {
+    margin-left: 0px;
+}
+    
+#emotion ul li {
+    margin: 1px 6px;
+    float: left;
+} 
+    
+#emotion figure img {   
+    display: block;
+    margin-top: 65%;
+}
+    
+#imagefixe {
+    display: block;
+}
+    
+#carousel1 {
+    display: none;
+}
+
+/* ------------- Page 3 768  ------------- */
+/* IMAGE BOTTOM 768 */
+.imgbottom {
+    display:block;
+}
+    
+/* FOOTER 768*/
+footer h5 {
+    margin-top: 40px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+h1{
+    font-size: 45px;
+}
+    
+h2 {
+    font-size: 37px;
+}
+    
+h3 {
+    font-size: 35px;
+}
+    
+h4 {
+    font-size: 30px;
+}
+    
+h5 {
+    font-size: 25px;
+}
+    
+p {
+    font-size: 22px;
+} 
+    
+/* MAIN IMAGE 992 */    
+    
+#main-image {
+    height: 450px;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 30px;
+}
+    
+#main-image h3 {
+    padding: 0px 100px;
+}
+
+#main-image p {
+    font-size: 35px;
+    margin-right: 3px;
+    margin-top: 205px;
+}   
+/* ------------- Page 1 992 ------------- */
+
+/* BODY 992*/
+
+#body {
+    margin:30px 0px 0px 0px;
+}
+
+#body h4 {   
+    margin-left: 10px;
+    padding: 0px 0px;
+}
+    
+#body p :first-child {
+    margin-top: 20px;
+    padding: 20px 0px 0px 0px;
+}
+    
+/* PAYSAGE 992*/
+
+#paysage {
+    margin-top: 30px;
+    height: 300px;
+}
+    
+#paysage article {
+    width: 750px;
+    height: 300px;
+    border-radius: 7px;
+}
+    
+/* EXPLICATION 992*/
+
+#explication p:first-child {
+    margin: 20px 0px 40px 0px;
+}
+    
+/* ------------- Page 2 992 ------------- */
+    
+/* CORP1 992 */
+#corp1 {   
+    padding: 20px;
+    margin: 0px auto 0px 20px;
+}
+    
+#corp1 h2 {   
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px auto;
+}
+    
+#corp1 p {
+    margin: 30px auto;
+    padding: 20px 0px 0px 0px;
+}
+    
+#stressimage img {
+    margin-top: 45%;
+    border-radius: 10px;
+}       
+    
+/* PHASE 992*/
+
+#phase {
+    margin: 0px auto;
+    background-color: #7F00FF;
+    padding: 50px 0;
+}
+    
+#phase p {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+    
+#phase ul {
+    font-size: 22px; 
+}
+    
+#phase ul li {
+    margin: auto;
+    padding:20px;
+}
+    
+/* EMOTION 992*/
+
+#emotion h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+    
+#emotion p {
+    padding-top: 30px;
+    margin-bottom: 20px;  
+}
+    
+#emotion ul li {
+    list-style-type: none;
+    margin: 1px 15px;
+    float: right;
+    margin-bottom: 0px;
+} 
+    
+ #emotion figure img {
+    margin-top: 55%;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+/* GENERAL 1200 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+    
+a:hover {
+    color: red;
+}
+    
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+}
+    
+h2 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 45px;
+}
+    
+h3 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 40px;
+}
+    
+h4 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 35px;
+}
+    
+h5 {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 30px;
+}
+    
+p {
+    font-size: 25px;
+}
+
+/* MAIN IMAGE 1200*/
+
+#main-image {
+    height: 500px;
+}
+
+#main-image h1 {
+    padding: 30px 30px 0px 30px;
+}
+    
+#main-image h3 {
+    padding: 0px 100px;  
+}
+
+#main-image p {
+    font-size: 35px;
+    margin-right: 40px;
+    margin-top: 240px;
+}
+/* ------------- Page 1 1200 ------------- */
+    
+/* PAYSAGE 1200*/
+
+#paysage {
+    margin-top: 30px;
+    height: 300px;
+}
+    
+#paysage article {   
+    margin-top: -20px;
+    width: 750px;
+    height: 300px;
+}
+
+/* EXPLICATION 1200*/
+
+#explication p {
+    margin-bottom: 50px;
+}
+    
+/* ------------- Page 2 1200  ------------- */
+/* CORP 1 1200*/
+
+#corp1 {   
+    padding: 20px;
+    margin: 0px auto 20px 20px;
+    background-position: 82% 80%;
+}
+    
+#corp1 h2 {   
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px 10px;
+}
+    
+#corp1 p {
+    margin: 30px auto;
+    padding: 0px 0px;
+}
+    
+#stressimage img {
+    margin-top: 38%;
+    border-radius: 10px;
+}      
+
+/* PHASE 1200*/
+
+#phase {
+    height: auto;
+    margin: 0px auto;
+    background-color: #7F00FF;
+    padding: 50px 0;
+}
+    
+#phase p {
+    font-size: 30px;
+}
+    
+#phase ul {
+    float: left;
+    font-size: 25px; 
+}
+    
+#phase ul li {
+    margin: auto;
+    padding:20px;
+}
+
+/* EMOTION 1200*/
+
+#emotion h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+    
+#emotion p {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+    
+#emotion ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#emotion ul li {
+    list-style-type: none;
+    margin: 1px 15px;
+    float: right;
+    margin-bottom: 0px;
+}
+    
+#emotion figure img {
+    margin-top: 45%;
+} 
+}
+
+/* ANIMATION ANIMATABLE */
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* CSS Animations (extracted from http://glifo.uiparade.com/) */
+
+@-webkit-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-2000px);
+	}
+	60% {
+		-webkit-transform: translateX(20px);
+	}
+
+	80% {
+		-webkit-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-2000px);
+	}
+
+	60% {
+		-moz-transform: translateX(20px);
+	}
+
+	80% {
+		-moz-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(-2000px);
+	}
+
+	60% {
+		opacity: 1;
+		-o-transform: translateX(20px);
+	}
+
+	80% {
+		-o-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-2000px);
+	}
+
+	60% {
+		transform: translateX(20px);
+	}
+
+	80% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@-webkit-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(2000px);
+	}
+
+	60% {
+		-webkit-transform: translateX(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(2000px);
+	}
+
+	60% {
+		-moz-transform: translateX(-20px);
+	}
+
+	80% {
+		-moz-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(2000px);
+	}
+
+	60% {
+		-o-transform: translateX(-20px);
+	}
+
+	80% {
+		-o-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(2000px);
+	}
+
+	60% {
+		transform: translateX(-20px);
+	}
+
+	80% {
+		transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.animated.animationDelay{
+	animation-delay:.4s;
+	-webkit-animation-delay:.4s;
+}
+.animated.animationDelayMed{
+	animation-delay:1.2s;
+	-webkit-animation-delay:1.2s;
+}
+.animated.animationDelayLong{
+	animation-delay:1.6s;
+	-webkit-animation-delay:1.6s;
+}
+.animated.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+.animated.bounceInRight {
+	-webkit-animation-name: bounceInRight;
+	-moz-animation-name: bounceInRight;
+	-o-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
+.animated.bounceInLeft {
+	-webkit-animation-name: bounceInLeft;
+	-moz-animation-name: bounceInLeft;
+	-o-animation-name: bounceInLeft;
+	animation-name: bounceInLeft;
+}
+
+/*FIN ANIMATION ANIMATABLE */
